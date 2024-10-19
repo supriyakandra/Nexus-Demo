@@ -121,10 +121,14 @@
         <repository>
             <id>maven-releases</id>
             <url>http://13.233.111.166:8081/repository/maven-releases/</url>
+		<username>YourUsername</username>
+        	<password>YourPassword</password>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
             <url>http://13.233.111.166:8081/repository/maven-snapshots/</url>
+		<username>YourUsername</username>
+        	<password>YourPassword</password>
         </snapshotRepository>
     </distributionManagement>
 
